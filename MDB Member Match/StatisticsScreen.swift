@@ -48,13 +48,36 @@ class StatisticsScreen: UIViewController {
         }
         else {
             images[ndx].image = Constants.getImageFor(name: prevMembers[ndx])
-            imageLabels[ndx].text = prevResults[ndx] + " " + prevMembers[ndx]
+            imageLabels[ndx].text = prevResults[ndx] + ": " + prevMembers[ndx]
         }
         
-        imageLabels[ndx].textColor = (prevResults[ndx] == "Correct") ? UIColor.green:UIColor.red
+        imageLabels[ndx].textColor = (prevResults[ndx] == "Correct") ? UIColor(red: 0.0, green: 150/255, blue: 0.0, alpha: 1.0):UIColor.red
     }
     
+    
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        // Show the navigation bar on other view controllers
+        
+        super.viewWillDisappear(true)
 
+        let navigationController: UINavigationController = self.navigationController!
+
+        let controllers: [GameScreenView] = navigationController.viewControllers.filter({ $0 is GameScreenView }) as! [GameScreenView]
+
+        if let viewController: GameScreenView = controllers.first {
+            if (viewController.resumeTapped == false) {
+                viewController.runTimer()
+            }
+        
+        }
+    
+
+
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 

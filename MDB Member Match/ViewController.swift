@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
+    //Everything done on the main page is on the storyboard, no programmed features
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
     }
 
 
