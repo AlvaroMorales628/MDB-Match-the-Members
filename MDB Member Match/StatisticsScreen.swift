@@ -30,7 +30,6 @@ class StatisticsScreen: UIViewController {
         images = [Image1,Image2, Image3]
         imageLabels = [Image1Label,Image2Label, Image3Label]
         super.viewDidLoad()
-        //print(LongestStreak)
         LongestStreakLabel.text = "Longest Streak: " + String(LongestStreak)
         
         
@@ -40,6 +39,7 @@ class StatisticsScreen: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //Used to set up the last three responses
     func statisticsElementUpdater(ndx: Int) {
         
         if (prevMembers[ndx] == "placeholder") {
@@ -54,29 +54,20 @@ class StatisticsScreen: UIViewController {
         imageLabels[ndx].textColor = (prevResults[ndx] == "Correct") ? UIColor(red: 0.0, green: 150/255, blue: 0.0, alpha: 1.0):UIColor.red
     }
     
-    
-    
+    //Ensures the timer picked up where it left off
     override func viewWillDisappear(_ animated: Bool) {
-        // Show the navigation bar on other view controllers
         
         super.viewWillDisappear(true)
 
         let navigationController: UINavigationController = self.navigationController!
-
         let controllers: [GameScreenView] = navigationController.viewControllers.filter({ $0 is GameScreenView }) as! [GameScreenView]
 
         if let viewController: GameScreenView = controllers.first {
             if (viewController.resumeTapped == false) {
                 viewController.runTimer()
             }
-        
         }
-    
-
-
-        
     }
-    
     
     /*
     // MARK: - Navigation
