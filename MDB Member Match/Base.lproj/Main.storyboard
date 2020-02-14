@@ -10,7 +10,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MDB_Member_Match" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -70,13 +69,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="ueY-RE-WIC"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1077.5999999999999" y="126.38680659670166"/>
         </scene>
         <!--Game Screen View-->
         <scene sceneID="eUH-1D-blf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5p1-bN-hUy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="hrw-OF-Msr" customClass="GameScreenView" customModule="MDB_Member_Match" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bpf-OL-V7s">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -218,13 +217,13 @@
                         <segue destination="2ld-6D-Dpp" kind="show" identifier="GStoSC" id="doP-dB-U0T"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5p1-bN-hUy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1847.2" y="125.4872563718141"/>
         </scene>
         <!--Statistics Screen-->
         <scene sceneID="PNl-W4-K27">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ui-EU-9HD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="2ld-6D-Dpp" customClass="StatisticsScreen" customModule="MDB_Member_Match" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tms-gg-cDI" propertyAccessControl="none">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -332,6 +331,7 @@
                         <outlet property="LongestStreakLabel" destination="VEi-Mx-Wzy" id="XAI-Mc-bDc"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ui-EU-9HD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2592.8000000000002" y="128.18590704647679"/>
         </scene>

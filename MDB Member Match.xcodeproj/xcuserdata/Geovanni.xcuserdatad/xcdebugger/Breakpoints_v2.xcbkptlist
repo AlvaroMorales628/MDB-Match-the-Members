@@ -3,4 +3,114 @@
    uuid = "23D472F4-E42C-44DB-A82C-2F14C800EBBF"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F960413-D149-4652-A39A-BC428AF33730"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MDB Member Match/StatisticsScreen.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "StatisticsScreen"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "4F960413-D149-4652-A39A-BC428AF33730 - 3cc2e8455a09b79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MDB_Member_Match.StatisticsScreen.LongestStreakLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MDB Member Match"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Geovanni/Desktop/MDB%20Member%20Match/MDB%20Member%20Match/StatisticsScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "4F960413-D149-4652-A39A-BC428AF33730 - 98430b0955867f4d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MDB_Member_Match.StatisticsScreen.LongestStreakLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MDB Member Match"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Geovanni/Desktop/MDB%20Member%20Match/MDB%20Member%20Match/StatisticsScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "4F960413-D149-4652-A39A-BC428AF33730 - be43e4eca7e2427a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MDB_Member_Match.StatisticsScreen.LongestStreakLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MDB Member Match"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Geovanni/Desktop/MDB%20Member%20Match/MDB%20Member%20Match/StatisticsScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "4F960413-D149-4652-A39A-BC428AF33730 - 6c0091c7db250de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MDB_Member_Match.StatisticsScreen.LongestStreakLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MDB Member Match"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Geovanni/Desktop/MDB%20Member%20Match/MDB%20Member%20Match/StatisticsScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "4F960413-D149-4652-A39A-BC428AF33730 - 7efa42e730c75f21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MDB_Member_Match.StatisticsScreen.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MDB_Member_Match.StatisticsScreen"
+                  moduleName = "MDB Member Match"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Geovanni/Desktop/MDB%20Member%20Match/MDB%20Member%20Match/StatisticsScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1223">
+               </Location>
+               <Location
+                  uuid = "4F960413-D149-4652-A39A-BC428AF33730 - 89fe553d8f0b365c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MDB_Member_Match.StatisticsScreen.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MDB_Member_Match.StatisticsScreen&gt;"
+                  moduleName = "MDB Member Match"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Geovanni/Desktop/MDB%20Member%20Match/MDB%20Member%20Match/StatisticsScreen.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "1154">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
